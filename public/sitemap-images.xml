@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- everywhere -->
+  <url>
+    <loc>https://www.ekovormas.com/en/</loc>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/sliekas.476646f8.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ekovormas.com/lt/</loc>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/sliekas.476646f8.png</image:loc>
+    </image:image>
+  </url>
+  <!-- usage page -->
+  <url>
+    <loc>https://www.ekovormas.com/en/usage</loc>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/pamidorai.25ac3a75.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/seklos.be9d65d1.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ekovormas.com/lt/usage</loc>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/pamidorai.25ac3a75.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/seklos.be9d65d1.jpg</image:loc>
+    </image:image>
+  </url>
+  <!-- vermicompost for sale page -->
+  <url>
+    <loc>https://www.ekovormas.com/en/vermicompost-for-sale</loc>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/productBox.60f95671.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ekovormas.com/lt/vermicompost-for-sale</loc>
+    <image:image>
+      <image:loc>https://www.ekovormas.com/static/media/productBox.60f95671.png</image:loc>
+    </image:image>
+  </url>
+</urlset>

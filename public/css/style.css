@@ -1,0 +1,331 @@
+.jumbotron {
+    margin-bottom: 0px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.container-high{
+    min-height: calc(100vh - 100px);
+}
+
+.fullScreen {
+    min-height: 100vh;
+}
+
+.link-pointer {
+    cursor: pointer;
+}
+
+.zalia {
+    color: #8cc34a;
+}
+
+.slieko {
+    color: #e5aeae;
+}
+
+.zalia_pav {
+    color: #8cc34a;
+    font-family: 'zaliasTextas', sans-serif;
+}
+
+@font-face {
+    font-family: "zaliasTextas";
+    src: url('regular.otf');
+}
+
+.tamsi_spalva_pav {
+    color: #59595c;
+    font-family: 'zaliasTextas', sans-serif;
+}
+
+.mazas_pavadinimas {
+    font-family: 'mazasPav', sans-serif;
+}
+
+@font-face {
+    font-family: "mazasPav";
+    src: url('Lato.ttf') format('truetype');
+}
+
+.tamsi_spalva {
+    color: #59595c;
+}
+
+
+.raide {
+    color: #8cc34a;
+    font-family: 'zaliasTextas', sans-serif;
+}
+
+.kontaktuRaide {
+    color: #8cc34a;
+    text-align: center;
+    font-family: 'zaliasTextas', sans-serif;
+}
+
+p {
+    color: #59595c;
+}
+
+#additional {
+    color: #59595c;
+}
+
+.footer_text {
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    color: #59595c;
+    font-size: 14px;
+}
+
+.nerodyti {
+    display: none;
+}
+
+#kalbos {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.pirkti-mygtukas {
+    color: #FFFFFF;
+    background-color: #8CC34A;
+}
+
+.pirkti-mygtukas:hover, .pirkti-mygtukas:focus, .pirkti-mygtukas:active, .pirkti-mygtukas.active, .open .dropdown-toggle.pirkti-mygtukas {
+    color: #FFFFFF;
+    background-color: #80A84F;
+}
+
+.pirkti-mygtukas:active, .pirkti-mygtukas.active, .open .dropdown-toggle.pirkti-mygtukas {
+    background-image: none;
+}
+
+.form-group .asteriskField {
+    color: red;
+}
+
+.pirkti-mygtukas.disabled, .pirkti-mygtukas[disabled], fieldset[disabled] .pirkti-mygtukas, .pirkti-mygtukas.disabled:hover, .pirkti-mygtukas[disabled]:hover, fieldset[disabled] .pirkti-mygtukas:hover, .pirkti-mygtukas.disabled:focus, .pirkti-mygtukas[disabled]:focus, fieldset[disabled] .pirkti-mygtukas:focus, .pirkti-mygtukas.disabled:active, .pirkti-mygtukas[disabled]:active, fieldset[disabled] .pirkti-mygtukas:active, .pirkti-mygtukas.disabled.active, .pirkti-mygtukas[disabled].active, fieldset[disabled] .pirkti-mygtukas.active {
+    background-color: #8CC34A;
+    border-color: #FFFFFF;
+}
+
+.pirkti-mygtukas .badge {
+    color: #8CC34A;
+    background-color: #FFFFFF;
+}
+
+.kontaktu_parasykite {
+    text-align: left;
+}
+
+.kontaktu_parasykite1 {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #8cc34a;
+}
+
+thead th {
+    text-align: center;
+    background-color: #8cc34a;
+}
+
+tr td {
+    color: #59595c;
+}
+
+.garantuoja ul {
+    list-style-image: url('1.png');
+
+    margin-right: 0.100em;
+
+}
+
+.garantuoja ul li {
+    color: #59595c;
+}
+
+.garantuoja ul {
+    padding-left: 20px;
+
+}
+
+.centermap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url('sliekas-kampas.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    z-index: -1;
+}
+
+@media (max-width: 300px) {
+    body {
+        background-image: url("sliekas-kampas.png");
+    }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+    body {
+        background-image: url("sliekas-kampas.png");
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    body {
+        background-image: url("sliekas-kampas.png");
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        background-image: url("sliekas-kampas.png");
+    }
+}
+
+/*new css*/
+
+#menuList li a:hover {
+    background-color: #ddd;
+    color: #8cc34a;
+}
+
+#menuList li a:focus {
+    background-color: #ddd;
+    color: #8cc34a;
+}
+
+.removeRightMargin {
+    margin-right: 15px !important;
+}
+
+/* footer starts here */
+#footer {
+    padding-top: 10px;
+    background-color: #eee;
+}
+
+#footer .footer-social {
+    text-align: right;
+    padding-bottom: 5px;
+    background-color: #eee;
+}
+
+#footer .circle {
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: inline-block;
+}
+
+#footer .icon {
+    height: 18px;
+}
+
+/* musu produkcija */
+
+.priceList {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.priceButton {
+    color: #fff;
+    background-color: #8cc34a;
+    border-color: #8cc34a;
+    margin-top: 5px;
+}
+
+.boxPrice {
+    margin-right: 15px;
+}
+
+.orderButton {
+    background-color: #8cc34a !important;
+    /*border-color: #e5aeae !important;*/
+}
+
+.transparentBackground {
+    background-color: transparent !important;
+}
+
+/* navigation */
+
+.nav-link:active {
+    color: #8cc34a !important;
+    background-color: #ddd !important;
+}
+
+.topRightCorner {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.lang-link {
+    display: inline-block;
+    height: 25px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.lang-link-text {
+    font-size: 14pt;
+}
+
+.lang-link:link {
+    margin-right: 20px;
+    color: #59595c;
+    text-decoration: none;
+}
+
+.lang-link:visited {
+    color: #59595c;;
+}
+
+.lang-link:hover {
+    color: #8cc34a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lang-current {
+    color: #8cc34a;
+}
+
+.lang-link:active {
+    color: #59595c;;
+    text-decoration: none;
+}
+
+.error-worm {
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: #8cc34a !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #8cc34a !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #8cc34a !important;
+}
